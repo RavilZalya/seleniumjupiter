@@ -6,7 +6,6 @@
 
 package com.adjuster.honeybadger.uitest;
 
-import com.adjuster.honeybadger.uitest.config.DriverManagerConfig;
 import com.adjuster.honeybadger.uitest.config.PageConfig;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +14,7 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @ComponentScan(basePackageClasses = UITestContext.class)
-@Import({PageConfig.class, DriverManagerConfig.class})
+@Import({PageConfig.class})
 public class UITestContext {
 
 }

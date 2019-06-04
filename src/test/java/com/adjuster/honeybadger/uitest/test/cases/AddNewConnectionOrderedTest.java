@@ -72,7 +72,7 @@ public class AddNewConnectionOrderedTest extends AuthenticatedTest {
 
     @Order(4)
     @DisplayName("Test 4")
-    @ParameterizedTest(name = "{index} => newConectionName={0}")
+    @ParameterizedTest()
     @CsvFileSource(resources = "/data/newConnectionParams.csv", numLinesToSkip = 1)
     public void whenTypingConnectionName_thenNextButtonGetsEnabled(String newConectionName) {
         then(connectionDetails.andIGiveNameToConnection(newConectionName).buttonNextIsEnabled()).isTrue();
@@ -94,7 +94,7 @@ public class AddNewConnectionOrderedTest extends AuthenticatedTest {
 
     @Order(7)
     @DisplayName("Test 7")
-    @ParameterizedTest(name = "{index} => param1={0}, param2={1}, param3={2}, param4={3}")
+    @ParameterizedTest()
     @CsvFileSource(resources = "/data/newConnectionParams.csv", numLinesToSkip = 1)
     public void whenEnteringAllNecessaryParams_thenNextButtonGetsEnabled(String param1, String param2, String param3, String param4) {
         then(connectionPermissions.andIEnterConnectionParameters(param1, param2, param3, param4).buttonNextIsEnabled()).isTrue();

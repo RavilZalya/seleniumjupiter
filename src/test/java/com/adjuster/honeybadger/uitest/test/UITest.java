@@ -1,13 +1,12 @@
 package com.adjuster.honeybadger.uitest.test;
 
 import com.adjuster.honeybadger.uitest.UITestContext;
-import com.adjuster.honeybadger.uitest.config.DriverManagerConfig;
 import com.adjuster.honeybadger.uitest.config.PageConfig;
+import io.github.bonigarcia.seljup.Arguments;
 import io.github.bonigarcia.seljup.SeleniumExtension;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.TestTemplate;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -23,20 +22,15 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 public abstract class UITest {
 
     @Autowired
-    private DriverManagerConfig driverManagerConfigs;
-
-    @Autowired
     private PageConfig config;
 
     private static final Logger LOG = LoggerFactory.getLogger(UITest.class);
     protected WebDriver driver;
 
-    //@TestTemplate
     @BeforeAll
-    void genericDriverTest(WebDriver webDriver) {
+    void genericDriverTest(@Arguments("--headless") WebDriver webDriver) {
         driver = webDriver;
         driver.get(config.getBaseUrl());
-        driver.manage().window().maximize();
     }
 
     @AfterAll

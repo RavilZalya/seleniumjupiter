@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @SingleSession
-@DisplayName("This is Test2Class")
+@DisplayName("This is FizBizOneTest")
 @Tag("fiz") @Tag("biz") @Tag("smoke")
-public class Test3Class extends UITest {
+public class FizBizTwoTest extends UITest {
 
 
-    @DisplayName("This is Test2Class test11")
+    @DisplayName("This is FizBizTwoTest test11")
     @Test
     public void test11() {
         driver.get("https://www.politico.com/");
@@ -40,42 +40,17 @@ public class Test3Class extends UITest {
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
         System.out.println("======================================");
-        driver.get("http://localhost:4200/");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1:32799/wd/hub");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1:32799");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1:4200");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
     }
 
-    @DisplayName("This is Test2Class test12")
+    @DisplayName("This is FizBizOneTest test12")
     @Test
     public void test1() {
-        driver.get("https://www.yandex.ru/");
+        driver.get("https://www.ebay.com/");
         System.out.println("======================================");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
         System.out.println("======================================");
-        driver.get("https://www.rambler.ru/");
+        driver.get("https://www.bing.com/");
         System.out.println("======================================");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());

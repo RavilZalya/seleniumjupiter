@@ -6,12 +6,12 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("This is Test2Class")
+@DisplayName("This is FizBizOneTest")
 @Tag("fiz") @Tag("smoke")
 @SingleSession
-public class Test2Class extends UITest {
+public class FizBizOneTest extends UITest {
 
-    @DisplayName("This is Test2Class test11")
+    @DisplayName("This is FizBizOneTest test11")
     @Test
     public void test11() {
         driver.get("https://www.politico.com/");
@@ -35,31 +35,6 @@ public class Test2Class extends UITest {
         System.out.println(driver.getCurrentUrl());
         System.out.println("======================================");
         driver.get("https://www.ad-juster.com/");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://localhost:4200/");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1:32799/wd/hub");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1:32799");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1:4200");
-        System.out.println("======================================");
-        System.out.println(driver.getTitle());
-        System.out.println(driver.getCurrentUrl());
-        System.out.println("======================================");
-        driver.get("http://172.17.0.1");
         System.out.println("======================================");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());

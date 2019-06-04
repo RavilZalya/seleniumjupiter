@@ -7,14 +7,14 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @SingleSession
-@DisplayName("This is Test2Class")
+@DisplayName("This is FizBizOneTest")
 @Tag("fiz") @Tag("biz")
-public class TestClass extends UITest {
+public class FizBizThreeTest extends UITest {
 
-    @DisplayName("This is TestClass test21")
+    @DisplayName("This is FizBizThreeTest test21")
     @Test
     public void test21() {
-        driver.get("https://fishki.net/");
+        driver.get("https://www.facebook.com/");
         System.out.println("======================================");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
@@ -32,10 +32,10 @@ public class TestClass extends UITest {
 
     }
 
-    @DisplayName("This is Test2Class test22")
+    @DisplayName("This is FizBizOneTest test22")
     @Test
     public void test1() {
-        driver.get("https://www.gazeta.ru/");
+        driver.get("https://www.amazon.com/");
         System.out.println("======================================");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
@@ -45,7 +45,7 @@ public class TestClass extends UITest {
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
         System.out.println("======================================");
-        driver.get("https://www.youtube.com/");
+        driver.get("https://www.netflix.com/");
         System.out.println("======================================");
 
     }
