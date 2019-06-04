@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.adjuster.honeybadger.uitest.test.cases.TestClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 258.773 s - in com.adjuster.honeybadger.uitest.test.cases.TestClass
