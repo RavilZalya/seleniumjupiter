@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="" />
+    <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
@@ -91,22 +93,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/Test3Class.java">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -116,18 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/Test2Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/NewConnectionReview.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/accounts/AccountsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Dropdown.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Header.java" />
@@ -207,13 +198,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Toggles.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Table.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/DisableEnableConnectionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/Test2Class.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/Test3Class.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/DisableEnableDatasetTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/selenium-jupiter.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
       </list>
     </option>
   </component>
@@ -259,6 +251,11 @@
             <path>
               <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
@@ -976,25 +973,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/NewConnectionDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Dropdown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Header.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1398,13 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/selenium-jupiter.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1416,6 +1387,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="133" column="56" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
