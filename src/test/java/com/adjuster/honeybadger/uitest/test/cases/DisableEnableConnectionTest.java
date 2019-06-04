@@ -5,6 +5,7 @@ import com.adjuster.honeybadger.uitest.page.connections.ConnectionsPage;
 import com.adjuster.honeybadger.uitest.test.AuthenticatedTest;
 import io.github.bonigarcia.seljup.SingleSession;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Tag;
@@ -60,6 +61,7 @@ public class DisableEnableConnectionTest extends AuthenticatedTest {
             connectionsTable = connectionsPage.setDisabledToggle(true);
         }
 
+        @Disabled
         @Test
         public void whenToggleIsSetToShowDisabled_thenDisabledConnectionIsShown() {
             then(connectionsTable.columnContainsLabel("Name", "Conn1001Crto\n1 Data Set")).isTrue();

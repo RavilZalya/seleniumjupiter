@@ -36,15 +36,15 @@ public abstract class Base {
     }
 
     protected WebElement findClickableElement(WebElement element) {
-        return driverWait.until(elementToBeClickable(element));
+        return driverWait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     protected WebElement findVisibleElement(By locator) {
-        return driverWait.until(visibilityOfElementLocated(locator));
+        return driverWait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     protected List<WebElement> findVisibleElements(By locator) {
-        return driverWait.until(visibilityOfAllElementsLocatedBy(locator));
+        return driverWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
 
     protected List<WebElement> findNestedElements(WebElement parent, By child) {

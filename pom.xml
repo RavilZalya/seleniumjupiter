@@ -131,7 +131,7 @@
                 <version>2.22.0</version>
                 <configuration>
                     <skipTests>false</skipTests>
-                    <groups>nested,ordered</groups>
+                    <groups>fiz</groups>
                 </configuration>
             </plugin>
         </plugins>
