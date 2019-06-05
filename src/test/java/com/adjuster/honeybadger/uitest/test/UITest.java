@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2018-2019. Ad-Juster, Inc - All Rights Reserved
+ * Proprietary and confidential
+ *
+ */
+
 package com.adjuster.honeybadger.uitest.test;
 
 import com.adjuster.honeybadger.uitest.UITestContext;
@@ -28,7 +34,7 @@ public abstract class UITest {
     protected WebDriver driver;
 
     @BeforeAll
-    void genericDriverTest(@Arguments("--headless") WebDriver webDriver) {
+    void genericDriverTest(@Arguments("--start-maximized") WebDriver webDriver) {
         driver = webDriver;
         driver.get(config.getBaseUrl());
     }

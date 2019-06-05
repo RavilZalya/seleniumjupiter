@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2018-2019. Ad-Juster, Inc - All Rights Reserved
+ * Proprietary and confidential
+ *
+ */
+
 package com.adjuster.honeybadger.uitest.test.cases;
 
 import com.adjuster.honeybadger.uitest.page.commonelements.Table;

@@ -9,7 +9,12 @@ package com.adjuster.honeybadger.uitest.page.connections;
 
 import com.adjuster.honeybadger.uitest.config.PageConfig;
 import com.adjuster.honeybadger.uitest.page.Page;
-import com.adjuster.honeybadger.uitest.page.commonelements.*;
+import com.adjuster.honeybadger.uitest.page.commonelements.FeaturesMenu;
+import com.adjuster.honeybadger.uitest.page.commonelements.Header;
+import com.adjuster.honeybadger.uitest.page.commonelements.Paginator;
+import com.adjuster.honeybadger.uitest.page.commonelements.Searchbar;
+import com.adjuster.honeybadger.uitest.page.commonelements.Table;
+import com.adjuster.honeybadger.uitest.page.commonelements.Toggles;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2018-2019. Ad-Juster, Inc - All Rights Reserved
+ * Proprietary and confidential
+ *
+ */
+
 package com.adjuster.honeybadger.uitest.page;
 
 import com.google.common.base.Preconditions;

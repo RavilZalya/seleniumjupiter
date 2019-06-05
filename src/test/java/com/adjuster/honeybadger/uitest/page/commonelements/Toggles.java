@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2018-2019. Ad-Juster, Inc - All Rights Reserved
+ * Proprietary and confidential
+ *
+ */
+
 package com.adjuster.honeybadger.uitest.page.commonelements;
 
 import com.adjuster.honeybadger.uitest.page.Element;
@@ -8,8 +14,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import java.util.List;
-
-import static org.assertj.core.api.BDDAssertions.then;
 
 /**
  * Represents a toggle grid.
