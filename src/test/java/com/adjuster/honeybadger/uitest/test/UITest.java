@@ -9,12 +9,15 @@ package com.adjuster.honeybadger.uitest.test;
 import com.adjuster.honeybadger.uitest.UITestContext;
 import com.adjuster.honeybadger.uitest.config.PageConfig;
 import io.github.bonigarcia.seljup.Arguments;
+import io.github.bonigarcia.seljup.BrowserType;
+import io.github.bonigarcia.seljup.DockerBrowser;
 import io.github.bonigarcia.seljup.SeleniumExtension;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,8 +36,10 @@ public abstract class UITest {
     private static final Logger LOG = LoggerFactory.getLogger(UITest.class);
     protected WebDriver driver;
 
+
     @BeforeAll
-    void genericDriverTest(@Arguments("--headless") WebDriver webDriver) {
+    void genericDriverTest(WebDriver webDriver) {
+        //void genericDriverTest(@DockerBrowser(type= BrowserType.CHROME, version="74.0") @Arguments("--start-maximized") RemoteWebDriver webDriver) {
         driver = webDriver;
         driver.get(config.getBaseUrl());
     }
