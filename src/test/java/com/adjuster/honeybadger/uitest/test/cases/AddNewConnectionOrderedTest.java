@@ -16,12 +16,9 @@ import com.adjuster.honeybadger.uitest.test.AuthenticatedTest;
 import io.github.bonigarcia.seljup.SingleSession;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
@@ -31,10 +28,10 @@ import static org.assertj.core.api.BDDAssertions.then;
 @DisplayName("Adding a new connection")
 @Tag("ordered")
 @SingleSession
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+//@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class AddNewConnectionOrderedTest extends AuthenticatedTest {
-
+/*
     private ConnectionTypes connectionTypes;
     private NewConnectionDetails connectionDetails;
     private NewConnectionPermissions connectionPermissions;
@@ -170,6 +167,8 @@ public class AddNewConnectionOrderedTest extends AuthenticatedTest {
     public void whenClickingNotNow_thenCreateNewDatasetDialogDisappears() {
         then(proceedToCreateNewDatasetDialog.isNotDisplayed()).isTrue();
     }
+
+ */
 }
 
 

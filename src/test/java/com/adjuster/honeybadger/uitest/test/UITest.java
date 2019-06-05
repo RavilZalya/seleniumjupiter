@@ -34,7 +34,7 @@ public abstract class UITest {
     protected WebDriver driver;
 
     @BeforeAll
-    void genericDriverTest(@Arguments("--start-maximized") WebDriver webDriver) {
+    void genericDriverTest(@Arguments("--headless") WebDriver webDriver) {
         driver = webDriver;
         driver.get(config.getBaseUrl());
     }
