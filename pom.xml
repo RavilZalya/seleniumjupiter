@@ -71,6 +71,7 @@
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-commons</artifactId>
             <version>${junit.platform.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
@@ -138,7 +139,11 @@
             <artifactId>docker-client</artifactId>
             <version>${docker.client.version}</version>
         </dependency-->
+
+
+
     </dependencies>
+
 
 
     <build>
@@ -152,6 +157,27 @@
                     <groups>fiz,biz</groups>
                 </configuration>
             </plugin>
+            <!--plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>LATEST</version>
+                <executions>
+                    <execution>
+                        <id>default</id>
+                        <goals>
+                            <goal>build</goal>
+                            <goal>push</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <vinsdocker is org name.>
+                    <containertest is the name of the image /  application >
+                    <repository>vinsdocker/containertest</repository>
+                    <version of your image: could be sprint11 or release5 etc>
+                    <tag>googletest</tag>
+                </configuration>
+            </plugin-->
         </plugins>
     </build>
 

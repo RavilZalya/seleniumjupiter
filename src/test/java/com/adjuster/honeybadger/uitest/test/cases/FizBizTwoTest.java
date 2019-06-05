@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
 
 @SingleSession
 @DisplayName("This is FizBizOneTest")
-@Tag("fiz") @Tag("biz") @Tag("smoke")
+@Tag("biz") @Tag("smoke")
 public class FizBizTwoTest extends UITest {
 
 
