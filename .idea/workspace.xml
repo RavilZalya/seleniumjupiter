@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="-646">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -115,9 +115,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizOneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizTwoTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/ConnectionsPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -256,206 +256,6 @@
             <path>
               <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_212 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_212 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_212 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_212 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_212 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.appium:java-client:7.0.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.appium:java-client:7.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="java-client-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.appium:java-client:7.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="java-client-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="descriptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="execution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-engine:1.4.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-engine:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-engine-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-engine:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-engine-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-engine:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-engine-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-engine:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-engine-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-              <item name="hierarchical" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-launcher:1.4.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-launcher:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-launcher-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-launcher:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-launcher-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="launcher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.junit.platform:junit-platform-launcher:1.4.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-platform-launcher-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="launcher" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -695,9 +495,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="39" width="3200" height="1761" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.19196141" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.19196141" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.26414087" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -713,7 +512,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.3625793" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35027102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35027102" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12863706" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1222,8 +1021,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="127" column="17" lean-forward="true" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+        <state relative-caret-position="-646">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>
