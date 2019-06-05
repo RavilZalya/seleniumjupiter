@@ -16,7 +16,7 @@
         <docker.client.version>8.15.2</docker.client.version>
         <selenium.jupiter.version>3.2.0</selenium.jupiter.version>
         <selenium.version>3.141.59</selenium.version>
-        <junit.jupiter.version>5.3.1</junit.jupiter.version>
+        <junit.jupiter.version>5.3.2</junit.jupiter.version>
         <junit.platform.version>1.4.1</junit.platform.version>
     </properties>
 

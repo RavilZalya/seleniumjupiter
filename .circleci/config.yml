@@ -26,4 +26,5 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: docker run -it --rm -v $PWD:$PWD -w $PWD -v /var/run/docker.sock:/var/run/docker.sock maven:3 mvn clean test -Dgroups=fiz -Dsel.jup.default.browser=chrome
+      - run: docker run -it --rm -v $PWD:$PWD -w $PWD -v /var/run/docker.sock:/var/run/docker.sock maven:3 mvn clean test -Dgroups=fiz -Dsel.jup.recording=true -Dsel.jup.output.folder=surefire-reports -Dsel.jup.screenshot.at.the.end.of.tests=true -Dsel.jup.recording=true
+
