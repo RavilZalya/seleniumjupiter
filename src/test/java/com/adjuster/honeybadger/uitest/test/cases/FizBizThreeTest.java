@@ -11,6 +11,7 @@ import io.github.bonigarcia.seljup.SingleSession;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.annotation.Configuration;
 
 @SingleSession
 @DisplayName("This is FizBizOneTest")
