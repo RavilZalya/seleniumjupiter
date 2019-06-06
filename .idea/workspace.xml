@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/UITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/UITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-06-05T12-27-32_501-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-06-05T12-34-42_988-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/UITestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/UITestContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/config/PageConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/account/AccountPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/accounts/AccountsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/authentication/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Dialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/DialogNavigable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Dropdown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/FeaturesMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Header.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/NavStepper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/NotificationsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Paginator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/SearchableDropdown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Searchbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/SideBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Snackbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/commonelements/Toggles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/connections/ConnectionTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/connections/ConnectionsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/connections/NewConnectionDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/connections/NewConnectionPermissions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/connections/NewConnectionReview.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/dashboard/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/datamanager/DataManagerPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/homepage/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/page/reports/ReportsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/AuthenticatedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/UITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionOrderedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest$Step1ConnectionDetailsWindow$Step2ConnectionPermissionsWindow$Step3ReviewWindow$LastStepConfirmation$CreateNewDatasetConfirmationDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest$Step1ConnectionDetailsWindow$Step2ConnectionPermissionsWindow$Step3ReviewWindow$LastStepConfirmation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest$Step1ConnectionDetailsWindow$Step2ConnectionPermissionsWindow$Step3ReviewWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest$Step1ConnectionDetailsWindow$Step2ConnectionPermissionsWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest$Step1ConnectionDetailsWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/DisableEnableConnectionTest$Step1ConnectionDetailsWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/DisableEnableConnectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/DisableEnableDatasetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/EditConnectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/FizBizOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adjuster/honeybadger/uitest/test/cases/FizBizTwoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/newConnectionName.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/newConnectionParams.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium-jupiter.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,10 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="210">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -212,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizTwoTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/selenium-jupiter.properties" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/UITest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -242,11 +191,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1981" />
-    <option name="y" value="59" />
-    <option name="width" value="2351" />
-    <option name="height" value="1365" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -581,10 +529,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1981" y="59" width="2351" height="1365" extended-state="0" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="2560" height="1440" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.31496745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.2887828" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.26414087" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -600,7 +547,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.3625793" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5602606" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5280123" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12863706" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1031,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1102,8 +1042,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="210">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
