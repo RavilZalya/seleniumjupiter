@@ -1,118 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/config/TestParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/AccountData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/ConnectionData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/Connections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/DataSetData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/DataSetTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/PermissionData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/Timezones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/dashboard/CardData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/dashboard/CardTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/dashboard/DashboardData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportDimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportMetrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportingBreakout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/report/ReportingPeriods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/component/AddUserDetailsDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/component/DeactivateUserDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/component/NewUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/component/NewUserPermissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/component/NewUserReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/accounts/component/AccountDetailsDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/accounts/component/AccountPermissionsDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/accounts/component/ReviewDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/ChooseDatasetDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/ConfirmationDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/DataTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/DialogNavigable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/FormControlFeedback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/SnackBarr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/TabSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Toggles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/component/ConnectionTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/component/ConnectionsTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/component/NewConnectionReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/DatasetPreviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/component/DatasetActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/component/DatasetFilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/component/DatasetGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/component/NewDatasetConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/component/NewDatasetConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/component/NewDatasetDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/login/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/CreateReportPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/component/EditReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/component/ReportPeriodDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/component/ReportsSearchbar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/component/ReportsTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/component/UnsavedChangesDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/AddAccountTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/AddNewUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/CreateEditDeleteReportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/CreateNewDatasetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/DisableDeleteDatasetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/EditConnectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/utilities/DateManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/utilities/WebDriverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/UITestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/UITestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/UITestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/UITestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/config/PageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/config/PageConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/accounts/AccountsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/accounts/AccountsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/authentication/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Dialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/DialogNavigable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Dropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/FeaturesMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/FeaturesMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/NavStepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/NavStepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/NotificationsMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Paginator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Paginator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/SearchableDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/SearchableDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Searchbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Searchbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/SideBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/SideBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Snackbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Snackbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements/Toggles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/ConnectionTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/ConnectionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/ConnectionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/NewConnectionDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/component/NewConnectionDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/NewConnectionPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/component/NewConnectionPermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/NewConnectionReview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/dashboard/DashboardPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/DataManagerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/datamanager/DataManagerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/homepage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/homepage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/ReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/ReportsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/AuthenticatedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/AuthenticatedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/UITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/UITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionOrderedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/DisableEnableConnectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/DisableEnableDatasetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/EditConnectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizOneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizTwoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/newConnectionName.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/newConnectionParams.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium-jupiter.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium-jupiter.properties" afterDir="false" />
-    </list>
+    <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,93 +21,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3799">
-              <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+            <state relative-caret-position="232">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/AccountData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/UITestContext.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/login/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/homepage/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/FeaturesMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/Dropdown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/UITestApplication.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/DialogNavigable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/utilities/WebDriverController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/Browsers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/config/PageConfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -254,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/reports/ReportsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/account/AccountPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/ConnectionTypes.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/authentication/LoginPage.java" />
@@ -305,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/FeaturesMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/DialogNavigable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/UITestApplication.java" />
       </list>
     </option>
   </component>
@@ -365,65 +186,6 @@
               <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uitest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uitest" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uitest" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uitest" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uitest" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumjupiter" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumjupiter" type="b2602c69:ProjectViewProjectNode" />
@@ -549,11 +311,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest" />
       <recent name="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/commonelements" />
       <recent name="$PROJECT_DIR$/src/test/resources/data" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/runner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -757,7 +519,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="39" width="3200" height="1761" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50211865" side_tool="true" weight="0.26414087" />
       <window_info id="Image Layers" order="1" />
@@ -765,7 +526,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50082916" side_tool="true" weight="0.255603" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49788135" visible="true" weight="0.4533762" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49788135" visible="true" weight="0.4533762" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31707317" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.49734887" />
@@ -775,7 +536,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.3625793" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33401084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.56842816" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12863706" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -938,27 +699,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/selenium-jupiter/3.2.0/selenium-jupiter-3.2.0.jar!/io/github/bonigarcia/seljup/DriverCapabilities.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/selenium-jupiter/3.2.0/selenium-jupiter-3.2.0.jar!/io/github/bonigarcia/seljup/DriverUrl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/AuthenticatedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1168,13 +908,6 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3799">
-          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/data/Browsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1251,6 +984,22 @@
           <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/UITestContext.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/UITestApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/config/PageConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
