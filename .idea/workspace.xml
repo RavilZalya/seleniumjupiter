@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="" />
+    <list default="true" id="74bba312-f7a9-4035-8e1f-9facb4a9add3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,9 +39,18 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/config/PageConfig.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -103,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/Base.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/connections/ConnectionsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/AddNewConnectionOrderedTest.java" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizOneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/test/cases/FizBizThreeTest.java" />
@@ -126,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/FeaturesMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/honeybadger/uitest/page/common/DialogNavigable.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/UITestApplication.java" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -526,7 +537,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50082916" side_tool="true" weight="0.255603" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49788135" visible="true" weight="0.4533762" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49788135" visible="true" weight="0.3045016" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31707317" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.49734887" />
@@ -536,7 +547,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053364" side_tool="true" weight="0.3625793" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.56842816" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21409214" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12863706" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -732,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1914">
           <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -1000,6 +1004,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adjuster/hbadger/uitest/config/PageConfig.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

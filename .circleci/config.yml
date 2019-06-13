@@ -1,32 +1,62 @@
-# Java Maven CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-java/ for more details
-#
-version: 2
-executorType: machine
-jobs:
-  build:
-    docker:
-      # specify the version you desire here
-      - image: circleci/openjdk:8-jdk
+# ============================
+variables:
+  MAVEN_OPTS: "-Dhttps.protocols=TLSv1.2 -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Djava.awt.headless=true"
+  MAVEN_CLI_OPTS: "--batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true"
+  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://docker:2375/
 
-    working_directory: ~/repo
+cache:
+  paths:
+    - .m2/repository
+    - testng/.allure
 
-    environment:
-      # Customize the JVM maximum heap limit
-      MAVEN_OPTS: -Xmx3200m
+maven:
+  #image: maven:3.3.9-jdk-8
+  image: docker:latest
+  stage: test
+  services:
+    - docker:dind
+  #services:
+  #  - name: selenoid/chrome:70.0
+  #    alias: selenoid
+  before_script:
+    - apk add --update --no-cache curl && rm -rf /var/cache/apk/*
+    - >
+      docker run --rm
+      -v /var/run/docker.sock:/var/run/docker.sock
+      -v ${HOME}:/root
+      -e OVERRIDE_HOME=${HOME}
+      aerokube/cm:latest-release
+      selenoid start
+      --browsers chrome
+      --last-versions 1
+      --args "-limit 2"
+  script:
+    - curl http://docker:4444/status
+    #- cd testng
+    #- 'mvn $MAVEN_CLI_OPTS test'
+    #- mvn test
+    #- mvn allure:report
+    - >
+      docker run --rm
+      -v "$(pwd)":/opt/maven
+      -w /opt/maven
+      maven:3.3.9-jdk-8
+      mvn -f testng/pom.xml test
+  artifacts:
+    paths:
+      - testng/target/allure-results
 
-    steps:
-      - checkout
-
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "pom.xml" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-
-      - run: docker run -it --rm -v $PWD:$PWD -w $PWD -v /var/run/docker.sock:/var/run/docker.sock maven:3 mvn clean test -Dgroups=connection,dataset,account -Dsel.jup.selenium.server.url=http://172.17.0.1:4444/wd/hub -Dsel.jup.default.browser=chrome-in-docker
-
+pages:
+  image: maven:3.3.9-jdk-8
+  stage: deploy
+  dependencies:
+    - maven
+  script:
+    - mvn -f testng/pom.xml allure:report
+    - mv testng/target/site/allure-maven-plugin/ public/
+  artifacts:
+    paths:
+      - public
 
 
